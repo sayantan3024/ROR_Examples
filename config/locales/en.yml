@@ -1,4 +1,5 @@
 en:
-  post_create_success: "Post was successfully created."
-  post_update_success: "Post was successfully updated."
-  post_destroy_success: "Post was successfully destroyed."
+  post:
+    post_create_success: "Post was successfully created."
+    post_update_success: "Post was successfully updated."
+    post_destroy_success: "Post was successfully destroyed."
