@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SampleApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= link_to "Sign_Up" , new_user_registration_path%>
+    <%= link_to "Log_in" , new_user_session_path%>
+    <% if user_signed_in? %>
+      <p>Current User : <%= current_user.email %></p>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>
