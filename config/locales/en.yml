@@ -1,5 +1,4 @@
 en:
-  hello: "Hello world"
   post_create_success: "Post was successfully created."
   post_update_success: "Post was successfully updated."
   post_destroy_success: "Post was successfully destroyed."
